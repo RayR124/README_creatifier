@@ -21,6 +21,8 @@ Special instructions? Just make it however simple or extravagant as you want! Ob
 
 ![screengrab](./assets/readme_gen_screenshot.png "generated in realtime")
 
+Follow this link: https://drive.google.com/file/d/1acTCWtJnimmwIfU9gd-4k2W8zkhKvZ6F/view to view a video walkthrough of the README Creatifier in action!
+
 ## Credits
 No collaborators on this project, though I did learn a TON from Robbert Wijtman in the bootcamp where he taught us as a class on how to do exactly this. Shoutout to Bucky24 on GitHub!
 
