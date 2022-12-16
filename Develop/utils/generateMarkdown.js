@@ -52,7 +52,7 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  const { title, description, installation, usage, credits, contribution, test, license, username, email } = data
+  const { title, description, installation, usage, credits, contribution, test, license, email } = data
 
   const badge = renderLicenseBadge(license)
   const licenseSection = renderLicenseSection(license)
