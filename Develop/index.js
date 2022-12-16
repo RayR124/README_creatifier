@@ -7,22 +7,22 @@ const fs = require('fs');
 const questions = [
     {type: 'input',
         name: 'title',
-        mesage: "Title of your project: "
+        mesage: " What is the Title of your project: "
     },{type: 'input',
         name: 'description',
-        message: "Description of your project: "
+        message: "Write a detailed Description of your project: "
     },{type: 'input',
         name: 'installation',
-        message: "List the steps required to install project: "
+        message: "List the steps required to install and run the project: "
     },{type: 'input',
         name: 'usage',
-        message: "Special Instructions and examples for use: "
+        message: "Provide instructions and examples of your project in use for the Usage section: "
     },{type: 'input',
         name: 'credits',
-        message: "List any collaborators: "
+        message: "If applicable, List any collaborators: "
     },{type: 'list',
         name: 'license',
-        message: 'Choose a license:',
+        message: 'Please choose a license:',
         choices: ['None','Apache License 2.0','GNU General Public License v3.0','MIT License','BSD 2-Clause “Simplified” License','BSD 3-Clause “New or “Revised” License','Boost Software License 1.0','Creative Commons Zero v1.0 Universal','Eclipse Public License 2.0','GNU Affero General Public License v3.0','GNU General Public License v2.0','GNU Lesser General Public License v2.1','Mozilla Public License 2.0']
     },{type: 'input',
         name: 'GitHub',
@@ -34,8 +34,11 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) => 
-    err ? console.log(err) : console.log('Success!'));
+    fs.writeFile(fileName, data, err => {
+    if (err) {
+        return console.log(err);
+     } console.log('Success! Your README.md file has been creatified!');
+});
 }
 
 // TODO: Create a function to initialize app

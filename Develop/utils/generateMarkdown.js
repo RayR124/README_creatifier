@@ -68,8 +68,6 @@ ${description}\n
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [Contribution](#contribution)
-- [Tests](#tests)
 - [License](#license)\n
 ## Installation
 ${installation}\n
@@ -84,7 +82,7 @@ ${test}\n
 ${licenseSection}
 See ${link} for more information.\n
 ## Questions?\n
-github handle: ${username} - visit my profile: https://github.com/RayR124<br>
+github handle: RayR124 - visit my profile: https://github.com/RayR124<br>
 Contact me at ${email} if you have any additional questions!`
   );
 }
