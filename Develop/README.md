@@ -3,7 +3,7 @@
 # readme generator
 
 ## Description
-This creates a readme auto generated
+this will auto generate a readme for future projects
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,13 +14,13 @@ This creates a readme auto generated
 - [License](#license)
 
 ## Installation
-run npm install, then run the index.js with node, then answer the questions
+run npm install, open index.js with node, then answer the following prompts
 
 ## Usage
-This can be used for any future projects
+special instructions? just mka eit however simple or extravagant as you want!
 
 ## Credits
-credit to Bucky24 and his class on Node and back end development.
+no collaborators, though I did learn a tom from Robbert Wijtman. Shoutout to Bucky24 on GitHub!
 
 ## Contribution
 undefined
